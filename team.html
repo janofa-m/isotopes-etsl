@@ -15,7 +15,8 @@
     <!-- NAVBAR SECTION -->
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="/" id="navbar_logo"> <i class="fa-solid fa-baseball-bat-ball"></i>S.R.</a>
+            <a href="/" id="navbar_logo"> 
+                <img src="images/logo.png" alt="logo">S.R.</a>
             <div class="navbar_toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -29,7 +30,7 @@
                     <a href="stats.html" class="navbar_links">Stats</a>
                 </li>
                 <li class="navbar_item">
-                    <a href="/" class="navbar_links">Teams</a>
+                    <a href="team.html" class="navbar_links">Teams</a>
                 </li>
                 <li class="navbar_btn">
                     <a href="/" class="button">Contact</a>
@@ -38,15 +39,29 @@
         </div>
     </nav>
     <!-- MAIN SECTION -->
-    <div class="main">
-        <div class="main_container">
-            <div class="main_content">
-                <h1>ETSL</h1>
-                <p>ISOTOPES</p>
-                <p>GAME LIST</p>
-            </div>
-        </div>
-    </div>
-    <script src="app.js"></script>
+
+    <main class="table">
+        <section class="table_header">
+            <h1>Game List</h1>
+        </section>
+        <section class="table_body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Team</th>
+                        <th> Date Played </th>
+                        <th> Score </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Cannon Ballers </td>
+                        <td> 2024-07-05 </td>
+                        <td> 26-11 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
